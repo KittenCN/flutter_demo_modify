@@ -51,6 +51,7 @@ class DefaultRulesPage extends StatelessWidget {
         leadingWidth: 160.0,
         toolbarHeight: 38.0,
         backgroundColor: Colors.white,
+        // ignore: deprecated_member_use
         brightness: Brightness.light,
       ),
       body: ListView.separated(

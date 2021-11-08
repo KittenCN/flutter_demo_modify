@@ -70,6 +70,7 @@ class _BookDetailState extends State<BookDetail> {
 
     // Registering this `FlutterBookApiHandler` class lets us receive incoming
     // calls from the platform.
+    // ignore: todo
     // TODO(gaaclarke): make the setup method an instance method so it's
     // injectable https://github.com/flutter/flutter/issues/59119.
     FlutterBookApi.setup(FlutterBookApiHandler(
@@ -85,6 +86,7 @@ class _BookDetailState extends State<BookDetail> {
           this.book?.title = titleTextController.text;
         });
         // Subtitle could be null.
+        // ignore: todo
         // TODO(gaaclarke): https://github.com/flutter/flutter/issues/59118.
         subtitleTextController.text = book.subtitle ?? '';
         subtitleTextController.addListener(() {

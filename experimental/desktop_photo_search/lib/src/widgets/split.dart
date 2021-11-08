@@ -19,6 +19,7 @@ import 'package:flutter/material.dart';
 ///
 /// The user can drag the widget with key [dividerKey] to change
 /// the space allocated between [firstChild] and [secondChild].
+// ignore: todo
 // TODO(djshuckerow): introduce support for a minimum fraction a child
 //                    is allowed.
 class Split extends StatefulWidget {
@@ -126,10 +127,12 @@ class _SplitState extends State<Split> {
       });
     }
 
+    // ignore: todo
     // TODO(https://github.com/flutter/flutter/issues/43747): use an icon.
     // The material icon for a drag handle is not currently available.
     // For now, draw an indicator that is 3 lines running in the direction
     // of the main axis, like a hamburger menu.
+    // ignore: todo
     // TODO(https://github.com/flutter/devtools/issues/1265): update mouse
     // to indicate that this is resizable.
     final dragIndicator = Flex(
